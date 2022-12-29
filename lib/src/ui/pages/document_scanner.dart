@@ -136,12 +136,11 @@ class DocumentScanner extends StatelessWidget {
                 if (generalStyles.hideDefaultDialogs) return;
 
                 if (state.statusSavePhotoDocument == AppStatus.loading) {
-                  dialogs.defaultDialog(context, "Saving Document");
+                  dialogs.defaultDialog(context, "Guardando imagen");
                 }
 
                 if (state.statusSavePhotoDocument == AppStatus.success) {
                   Navigator.pop(context);
-                  dialogs.defaultDialog(context, "Saved Document");
                 }
               },
             ),
