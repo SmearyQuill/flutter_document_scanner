@@ -1,7 +1,4 @@
 import 'dart:math';
-import 'dart:typed_data';
-
-import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_document_scanner/flutter_document_scanner.dart';
 import 'package:flutter_document_scanner/src/models/contour.dart';

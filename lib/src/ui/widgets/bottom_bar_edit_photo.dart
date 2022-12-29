@@ -36,7 +36,7 @@ class BottomBarEditPhoto extends StatelessWidget {
                 "Natural",
               ),
               style: TextButton.styleFrom(
-                primary: Colors.white,
+                foregroundColor: Colors.white,
               ),
             ),
 
@@ -50,7 +50,7 @@ class BottomBarEditPhoto extends StatelessWidget {
                 "GRAY",
               ),
               style: TextButton.styleFrom(
-                primary: Colors.white,
+                foregroundColor: Colors.white,
               ),
             ),
 
@@ -64,7 +64,7 @@ class BottomBarEditPhoto extends StatelessWidget {
                 "ECO",
               ),
               style: TextButton.styleFrom(
-                primary: Colors.white,
+                foregroundColor: Colors.white,
               ),
             ),
           ],

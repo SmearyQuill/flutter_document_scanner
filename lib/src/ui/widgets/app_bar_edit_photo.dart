@@ -46,7 +46,7 @@ class AppBarEditPhoto extends StatelessWidget {
                 editPhotoDocumentStyle.textButtonSave,
               ),
               style: TextButton.styleFrom(
-                primary: Colors.white,
+                foregroundColor: Colors.white,
               ),
             ),
           ],

@@ -44,7 +44,7 @@ class AppBarCropPhoto extends StatelessWidget {
                 cropPhotoDocumentStyle.textButtonSave,
               ),
               style: TextButton.styleFrom(
-                primary: Colors.white,
+                foregroundColor: Colors.white,
               ),
             ),
           ],
