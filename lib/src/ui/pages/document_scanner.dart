@@ -84,7 +84,7 @@ class DocumentScanner extends StatelessWidget {
                 if (generalStyles.hideDefaultDialogs) return;
 
                 if (state.statusTakePhotoPage == AppStatus.loading) {
-                  dialogs.defaultDialog(context, "Taking picture");
+                  dialogs.defaultDialog(context, "Capturando imagen");
                 }
 
                 if (state.statusTakePhotoPage == AppStatus.success) {
@@ -101,7 +101,7 @@ class DocumentScanner extends StatelessWidget {
                 if (generalStyles.hideDefaultDialogs) return;
 
                 if (state.statusCropPhoto == AppStatus.loading) {
-                  dialogs.defaultDialog(context, "Cropping picture");
+                  dialogs.defaultDialog(context, "Ajustando imagen");
                 }
 
                 if (state.statusCropPhoto == AppStatus.success) {
@@ -118,7 +118,7 @@ class DocumentScanner extends StatelessWidget {
                 if (generalStyles.hideDefaultDialogs) return;
 
                 if (state.statusEditPhoto == AppStatus.loading) {
-                  dialogs.defaultDialog(context, "Editting picture");
+                  dialogs.defaultDialog(context, "Editando iamgen");
                 }
 
                 if (state.statusEditPhoto == AppStatus.success) {
