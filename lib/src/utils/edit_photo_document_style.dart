@@ -23,7 +23,7 @@ class EditPhotoDocumentStyle {
   const EditPhotoDocumentStyle({
     this.hideAppBarDefault = false,
     this.hideBottomBarDefault = false,
-    this.textButtonSave = "SAVE",
+    this.textButtonSave = "GUARDAR",
     this.children,
     this.top = 0,
     this.bottom = 0,

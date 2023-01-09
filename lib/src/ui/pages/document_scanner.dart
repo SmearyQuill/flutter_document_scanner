@@ -118,7 +118,7 @@ class DocumentScanner extends StatelessWidget {
                 if (generalStyles.hideDefaultDialogs) return;
 
                 if (state.statusEditPhoto == AppStatus.loading) {
-                  dialogs.defaultDialog(context, "Editando iamgen");
+                  dialogs.defaultDialog(context, "Editando imagen");
                 }
 
                 if (state.statusEditPhoto == AppStatus.success) {

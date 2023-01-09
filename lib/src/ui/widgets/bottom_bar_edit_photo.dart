@@ -32,11 +32,11 @@ class BottomBarEditPhoto extends StatelessWidget {
                   context.read<DocumentScannerController>().applyFilter(
                         FilterType.natural,
                       ),
-              child: const Text(
-                "Natural",
-              ),
               style: TextButton.styleFrom(
                 foregroundColor: Colors.white,
+              ),
+              child: const Text(
+                "Natural",
               ),
             ),
 
@@ -46,11 +46,11 @@ class BottomBarEditPhoto extends StatelessWidget {
                   context.read<DocumentScannerController>().applyFilter(
                         FilterType.gray,
                       ),
-              child: const Text(
-                "GRAY",
-              ),
               style: TextButton.styleFrom(
                 foregroundColor: Colors.white,
+              ),
+              child: const Text(
+                "GRISES",
               ),
             ),
 
@@ -60,11 +60,11 @@ class BottomBarEditPhoto extends StatelessWidget {
                   context.read<DocumentScannerController>().applyFilter(
                         FilterType.eco,
                       ),
-              child: const Text(
-                "ECO",
-              ),
               style: TextButton.styleFrom(
                 foregroundColor: Colors.white,
+              ),
+              child: const Text(
+                "ECO",
               ),
             ),
           ],

@@ -36,7 +36,7 @@ class CropPhotoDocumentStyle {
 
   const CropPhotoDocumentStyle({
     this.hideAppBarDefault = false,
-    this.textButtonSave = "CROP",
+    this.textButtonSave = "RECORTAR",
     this.children,
     this.top = 0,
     this.bottom = 0,
